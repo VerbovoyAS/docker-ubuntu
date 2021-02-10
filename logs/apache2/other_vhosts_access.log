@@ -1,0 +1,5 @@
+localhost:80 172.19.0.1 - - [09/Feb/2021:11:38:11 +0000] "GET / HTTP/1.1" 200 865 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:84.0) Gecko/20100101 Firefox/84.0"
+localhost:80 172.19.0.1 - - [09/Feb/2021:11:38:11 +0000] "GET /assets/css/bulma.min.css HTTP/1.1" 200 22080 "http://127.0.0.1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:84.0) Gecko/20100101 Firefox/84.0"
+localhost:80 172.19.0.1 - - [09/Feb/2021:11:38:12 +0000] "GET /favicon.ico HTTP/1.1" 404 487 "http://127.0.0.1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:84.0) Gecko/20100101 Firefox/84.0"
+localhost:80 172.19.0.1 - - [09/Feb/2021:11:38:30 +0000] "GET /test_db.php HTTP/1.1" 200 371 "http://127.0.0.1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:84.0) Gecko/20100101 Firefox/84.0"
+localhost:80 172.19.0.1 - - [09/Feb/2021:11:38:37 +0000] "GET /test_db_pdo.php HTTP/1.1" 200 369 "http://127.0.0.1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:84.0) Gecko/20100101 Firefox/84.0"
