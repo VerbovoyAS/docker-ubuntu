@@ -3,8 +3,8 @@ version: "3"
 services:
   webserver:
     build: 
-      context: ./bin/php74
-    container_name: 'lamp-php74'
+      context: ./bin/php8
+    container_name: 'lamp-php8'
     restart: 'always'
     ports:
       - "80:80"
