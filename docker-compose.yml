@@ -22,7 +22,7 @@ services:
       MYSQL_ROOT_PASSWORD: tiger
   database:
     build:
-      context: "./bin/mysql8"
+      context: "./bin/mysql"
     container_name: 'lamp-database'
     restart: 'always'
     ports:
