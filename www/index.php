@@ -31,7 +31,7 @@
                                 <li>PHP <?= phpversion(); ?></li>
                                 <li>
                                     <?php
-                                    $link = mysqli_connect("database", "root", $_ENV['MYSQL_ROOT_PASSWORD'], null);
+                                    $link = mysqli_connect("database", "root", 'tiger', null);
 
 /* check connection */
                                     if (mysqli_connect_errno()) {
@@ -53,7 +53,7 @@
                         <div class="content">
                             <ul>
                                 <li><a href="/phpinfo.php">phpinfo()</a></li>
-                                <li><a href="http://localhost:<? print $_ENV['PMA_PORT']; ?>">phpMyAdmin</a></li>
+                                <li><a href="http://localhost:<? print 3306; ?>">phpMyAdmin</a></li>
                                 <li><a href="/test_db.php">Test DB Connection with mysqli</a></li>
                                 <li><a href="/test_db_pdo.php">Test DB Connection with PDO</a></li>
                             </ul>
